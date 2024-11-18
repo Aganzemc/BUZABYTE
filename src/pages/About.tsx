@@ -3,6 +3,10 @@ import { PageHeader } from '../components/PageHeader';
 import { TeamMember } from '../components/TeamMember';
 import { Target, Heart, Users } from 'lucide-react';
 
+import paulinImage from '../images/Teams/paulin.jpg';
+import chirstianImage from '../images/Teams/chris.jpg';
+import clovisImage from '../images/Teams/clovis.jpg';
+
 export function About() {
   const values = [
     {
@@ -26,24 +30,24 @@ export function About() {
     {
       name: 'BAPOLISI AYELE Paulin',
       role: 'Fondateur & PDG',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      image: paulinImage,
       bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
     },
     {
       name: 'AGANZE MIRINDI Christian',
       role: 'Fondateur & Développeur des logiciels',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      image: chirstianImage,
       bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
     },
     {
-      name: 'FURAHA Esthere',
+      name: 'FURAHA Esther',
       role: 'Fondateur & Comptable',
       image:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
     },
 
     {
-      name: 'MUNGUAKONKWA MIRINDI Daniel',
+      name: 'AKONKWA MIRINDI Daniel',
       role: 'Fondateur & Chargé de finance',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
@@ -57,9 +61,9 @@ export function About() {
     },
 
     {
-      name: 'Clovis',
+      name: 'BULANGALIRE KASHABALI Clovis',
       role: 'Fondateur & Chargé de la securité juridique',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      image: clovisImage,
       bio: "Passionné par la création de solutions innovantes et l'encadrement de jeunes développeurs.",
     },
   ];
