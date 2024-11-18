@@ -3,10 +3,10 @@ import { PageHeader } from '../components/PageHeader';
 import { TeamMember } from '../components/TeamMember';
 import { Target, Heart, Users } from 'lucide-react';
 
-import paulinImage from '../images/Teams/paulin.jpg';
-import chirstianImage from '../images/Teams/chris.jpg';
-import clovisImage from '../images/Teams/clovis.jpg';
-import danielImage from '../images/Teams/daniel.jpg';
+import paulinImage from '../images/Teams/user.png';
+import chirstianImage from '../images/Teams/user.png';
+import clovisImage from '../images/Teams/user.png';
+import danielImage from '../images/Teams/user.png';
 import userImage from '../images/Teams/user.png';
 
 export function About() {
