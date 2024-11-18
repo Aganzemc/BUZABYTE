@@ -6,6 +6,8 @@ import { Target, Heart, Users } from 'lucide-react';
 import paulinImage from '../images/Teams/paulin.jpg';
 import chirstianImage from '../images/Teams/chris.jpg';
 import clovisImage from '../images/Teams/clovis.jpg';
+import danielImage from '../images/Teams/daniel.jpg';
+import userImage from '../images/Teams/user.png';
 
 export function About() {
   const values = [
@@ -42,21 +44,21 @@ export function About() {
     {
       name: 'FURAHA Esther',
       role: 'Fondateur & Comptable',
-      image:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      image:userImage,
       bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
     },
 
     {
       name: 'AKONKWA MIRINDI Daniel',
       role: 'Fondateur & Chargé de finance',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      image: danielImage,
       bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
     },
 
     {
       name: 'KAMANGALA ISANDA Julien',
       role: 'Fondateur & Formateur',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      image: userImage,
       bio: "Passionné par la création de solutions innovantes et l'encadrement de jeunes développeurs.",
     },
 
