@@ -6,81 +6,106 @@ import { Target, Heart, Users } from 'lucide-react';
 export function About() {
   const values = [
     {
-      icon: <Target className="h-8 w-8 text-blue-600" />,
+      icon: <Target className="w-8 h-8 text-blue-600" />,
       title: 'Mission',
-      description: 'To empower individuals and organizations through innovative technology solutions and knowledge sharing.',
+      description: "Developper vos competences afin que vous restiez compétitif dans un mode numérique en constante évolution.",
     },
     {
-      icon: <Heart className="h-8 w-8 text-blue-600" />,
+      icon: <Heart className="w-8 h-8 text-blue-600" />,
       title: 'Values',
-      description: 'Excellence, innovation, collaboration, and continuous learning drive everything we do.',
+      description: "L'excellence, l'innovation, la collaboration et l'apprentissage continu sont le moteur de tout ce que nous faisons.",
     },
     {
-      icon: <Users className="h-8 w-8 text-blue-600" />,
+      icon: <Users className="w-8 h-8 text-blue-600" />,
       title: 'Community',
-      description: 'Building a strong tech community in Bukavu through mentorship and knowledge exchange.',
+      description: "Construire une communauté technologique forte à Bukavu grâce au mentorat et à l'échange de connaissances.",
     },
   ];
 
   const team = [
     {
-      name: 'John Doe',
-      role: 'Founder & CEO',
+      name: 'BAPOLISI AYELE Paulin',
+      role: 'Fondateur & PDG',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      bio: 'Tech enthusiast with 10+ years of experience in software development.',
+      bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
     },
     {
-      name: 'Jane Smith',
-      role: 'Technical Lead',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      bio: 'Passionate about creating innovative solutions and mentoring young developers.',
-    },
-    {
-      name: 'Mike Johnson',
-      role: 'Community Manager',
+      name: 'AGANZE MIRINDI Christian',
+      role: 'Fondateur & Développeur des logiciels',
       image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      bio: 'Dedicated to building and nurturing the tech community in DR Congo.',
+      bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
+    },
+    {
+      name: 'FURAHA Esthere',
+      role: 'Fondateur & Comptable',
+      image:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
+    },
+
+    {
+      name: 'MUNGUAKONKWA MIRINDI Daniel',
+      role: 'Fondateur & Chargé de finance',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
+    },
+
+    {
+      name: 'KAMANGALA ISANDA Julien',
+      role: 'Fondateur & Formateur',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      bio: "Passionné par la création de solutions innovantes et l'encadrement de jeunes développeurs.",
+    },
+
+    {
+      name: 'Clovis',
+      role: 'Fondateur & Chargé de la securité juridique',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      bio: "Passionné par la création de solutions innovantes et l'encadrement de jeunes développeurs.",
     },
   ];
 
   return (
     <div className="pt-16">
       <PageHeader
-        title="About BUZABYTE"
-        subtitle="Empowering DRC's Digital Future"
+        title="À propos de nous BUZABYTE"
+        subtitle=" Renforcer l'avenir numérique de la RDC "
       />
 
       {/* Story Section */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Our Story</h2>
-            <p className="text-gray-600 mb-8">
-              Founded with a vision to transform DR Congo's tech landscape, BUZABYTE emerged from a 
-              passion for technology and a commitment to community development. We believe in the 
-              power of knowledge sharing and collaborative growth to build a stronger, more 
-              technologically advanced DRC.
+            <h2 className="mb-6 text-3xl font-bold">Notre histoire </h2>
+            <p className="mb-8 text-gray-600">
+            Fondée avec la vision de transformer le paysage technologique 
+            de la RD Congo, BUZABYTE est née d'une passion pour la technologie
+             et d'un engagement envers le développement communautaire. 
+             Nous croyons au pouvoir du partage des connaissances et 
+             de la croissance collaborative pour construire une RDC plus forte
+            et plus avancée technologiquement.
             </p>
             <p className="text-gray-600">
-              Today, we continue to drive innovation through our software solutions while nurturing 
-              the next generation of tech professionals through mentorship and educational initiatives.
+            Aujourd'hui, nous continuons à stimuler l'innovation grâce à 
+            nos solutions logicielles tout en formant la prochaine 
+            génération de professionnels de la technologie grâce à des 
+            initiatives de mentorat et de formation.
             </p>
           </div>
         </div>
       </section>
 
       {/* Values Section */}
-      <section className="bg-gray-50 py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Core Values</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <section className="py-20 bg-gray-50">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <h2 className="mb-12 text-3xl font-bold text-center">Nos valeurs fondamentales </h2>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {values.map((value, index) => (
               <div
                 key={index}
-                className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200"
+                className="p-8 transition-shadow duration-200 bg-white rounded-lg shadow-lg hover:shadow-xl"
               >
                 <div className="mb-4">{value.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{value.title}</h3>
+                <h3 className="mb-2 text-xl font-semibold">{value.title}</h3>
                 <p className="text-gray-600">{value.description}</p>
               </div>
             ))}
@@ -90,9 +115,9 @@ export function About() {
 
       {/* Team Section */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <h2 className="mb-12 text-3xl font-bold text-center">Our Team</h2>
+          <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
             {team.map((member, index) => (
               <TeamMember key={index} {...member} />
             ))}
