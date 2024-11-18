@@ -32,10 +32,10 @@ export function Footer() {
             <h3 className="mb-4 text-lg font-semibold">Liens rapides </h3>
             <ul className="space-y-2">
               {[     
-                { to: '/about', label: 'About Us' },
+                { to: '/about', label: ' À propos de nous ' },
                 { to: '/services', label: 'Services' },
-                { to: '/projects', label: 'Projects' },
-                { to: '/partners', label: 'Partners' },
+                { to: '/projects', label: 'Projets' },
+                { to: '/partners', label: 'Partenaires' },
                 { to: '/contact', label: 'Contact' }
               ].map((link) => (
                 <li key={link.to}>
@@ -59,16 +59,17 @@ export function Footer() {
                   className="flex items-center space-x-2 text-gray-400 transition-colors hover:text-white"
                 >
                   <Mail className="flex-shrink-0 w-5 h-5 text-blue-400" />
-                  <span>info@buzabyte.com</span>
+                  <span>Buzabyte@gmail.com</span>
                 </a>
               </li>
               <li>
                 <a 
-                  href="tel:+243123456789" 
+                  href="tel:+243902091217" 
                   className="flex items-center space-x-2 text-gray-400 transition-colors hover:text-white"
                 >
                   <Phone className="flex-shrink-0 w-5 h-5 text-blue-400" />
-                  <span>+243 123 456 789</span>
+                  <span>+243 902 091 217, +243 997 366 776
+                  </span>
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-gray-400">
@@ -79,9 +80,9 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Newsletter</h3>
+            <h3 className="mb-4 text-lg font-semibold">S'abonner </h3>
             <p className="mb-4 text-sm text-gray-400">
-              Subscribe to our newsletter for updates and tech insights.
+            Abonnez-vous à notre page pour des mises à jour et des informations techniques.
             </p>
             <form className="space-y-2">
               <input
@@ -93,7 +94,7 @@ export function Footer() {
                 type="submit"
                 className="w-full px-4 py-2 text-white transition-colors duration-200 bg-blue-600 rounded-md hover:bg-blue-700"
               >
-                Subscribe
+                S'abonner 
               </button>
             </form>
           </div>
@@ -105,4 +106,4 @@ export function Footer() {
       </div>
     </footer>
   );
-}
+}    
