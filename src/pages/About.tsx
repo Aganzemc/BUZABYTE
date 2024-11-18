@@ -18,7 +18,7 @@ export function About() {
     },
     {
       icon: <Heart className="w-8 h-8 text-blue-600" />,
-      title: 'Values',
+      title: 'Values',   
       description: "L'excellence, l'innovation, la collaboration et l'apprentissage continu sont le moteur de tout ce que nous faisons.",
     },
     {
