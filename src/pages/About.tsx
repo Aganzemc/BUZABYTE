@@ -68,7 +68,7 @@ export function About() {
       image: clovisImage,
       bio: "Passionné par la création de solutions innovantes et l'encadrement de jeunes développeurs.",
     },
-  ];
+  ];     
 
   return (
     <div className="pt-16">
