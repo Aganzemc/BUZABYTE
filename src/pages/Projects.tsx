@@ -43,7 +43,7 @@ function ProjectCard({ title, description, image, date, category, client, link }
             rel="noopener noreferrer"
             className="inline-flex items-center text-blue-600 hover:text-blue-700"
           >
-            View Project <ExternalLink className="h-4 w-4 ml-1" />
+            Voir le Projet <ExternalLink className="h-4 w-4 ml-1" />
           </a>
         )}
       </div>
@@ -54,59 +54,43 @@ function ProjectCard({ title, description, image, date, category, client, link }
 export function Projects() {
   const projects = [
     {
-      title: 'Agricultural Management App',
-      description: 'A comprehensive mobile application helping farmers track crops, manage resources, and optimize yields through data-driven insights.',
+      title: 'Mimea Ulinzi App',
+      description: "Une application mobile qui permet aux cultivateurs de prévenir et dans les cas échéant de prendre soin des leurs cultures vivrières .",
       image: 'https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      date: 'March 2024',
+      date: 'Decembre 2024',
       category: 'Mobile App',
-      client: 'Rwanda Farmers Association',
+      client: 'Les Agriculteurs',
       link: '#'
     },
     {
-      title: 'E-Learning Platform',
-      description: 'An interactive platform providing tech education to students across Rwanda, featuring video courses, coding exercises, and real-time mentorship.',
+      title: " Plateforme d'apprentissage en ligne ",
+      description:"Une plate-forme interactive offrant une formation technologique aux étudiants à travers le Rwanda, proposant des cours vidéo, des exercices de codage et un mentorat en temps réel.",
       image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       date: 'January 2024',
       category: 'Web Application',
-      client: 'Ministry of Education',
+      client: 'Etudiants',
       link: '#'
     },
     {
-      title: 'Healthcare Management System',
-      description: 'A digital solution streamlining patient records, appointments, and medical inventory management for local clinics.',
+      title: 'System Système de gestion des soins de santé',
+      description: "Une solution numérique rationalisant les dossiers des patients, les rendez-vous et la gestion des stocks médicaux pour les cliniques locales.",
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      date: 'December 2023',
+      date: 'décembre 2023',
       category: 'Web Application',
-      client: 'Kigali Health Centers',
+      client: ' Centres de Santé de Bukavu',
       link: '#'
     },
     {
-      title: 'Supply Chain Tracker',
-      description: 'Blockchain-based system for tracking agricultural products from farm to market, ensuring transparency and fair trade.',
+      title: "Suivi de la chaîne d'approvisionnement",
+      description: "Système basé sur la blockchain pour suivre les produits agricoles de la ferme au marché, garantissant la transparence et le commerce équitable.",
       image: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      date: 'November 2023',
+      date: 'Novembre 2023',
       category: 'Blockchain',
-      client: 'Rwanda Trade Board',
+      client: ' Office du commerce du Congo',
       link: '#'
     },
-    {
-      title: 'Community Skills Platform',
-      description: 'A platform connecting tech mentors with aspiring developers, facilitating knowledge sharing and project collaboration.',
-      image: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      date: 'October 2023',
-      category: 'Web Platform',
-      client: 'Tech Community Rwanda',
-      link: '#'
-    },
-    {
-      title: 'Smart City Dashboard',
-      description: 'Real-time monitoring and analytics dashboard for urban infrastructure management in Kigali.',
-      image: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      date: 'September 2023',
-      category: 'IoT Dashboard',
-      client: 'Kigali City Council',
-      link: '#'
-    }
+ 
+
   ];
 
   const categories = [...new Set(projects.map(project => project.category))];
@@ -114,8 +98,8 @@ export function Projects() {
   return (
     <div className="pt-16">
       <PageHeader
-        title="Our Projects"
-        subtitle="Innovative Solutions Making an Impact"
+        title="Nos Projets"
+        subtitle="Des solutions innovantes"
       />
 
       {/* Categories */}
@@ -149,15 +133,15 @@ export function Projects() {
       {/* Call to Action */}
       <section className="bg-blue-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Have a Project in Mind?</h2>
+          <h2 className="text-3xl font-bold mb-4">Vous avez un projet en tête ?</h2>
           <p className="text-xl mb-8">
-            Let's work together to bring your vision to life
+          Travaillons ensemble pour donner vie à votre vision
           </p>
           <a
             href="/contact"
             className="inline-block px-8 py-3 border-2 border-white rounded-full text-lg font-medium hover:bg-white hover:text-blue-600 transition-colors duration-200"
           >
-            Start a Project
+           Démarrer un projet 
           </a>
         </div>
       </section>

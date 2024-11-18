@@ -31,68 +31,66 @@ export function Services() {
   const services = [
     {
       icon: <Code className="h-8 w-8" />,
-      title: 'Application Development',
-      description: 'Custom software solutions tailored to your business needs',
+      title:" Développement des applications ",
+      description: "Solutions logicielles personnalisées adaptées aux besoins de votre entreprise",
       features: [
-        'Web application development',
-        'Mobile app development',
-        'API integration and development',
+        "Développement des applications Web",
+        "Développement d'applications mobiles",
+        " Intégration et développement d'API",
         'UI/UX design and implementation'
       ]
     },
     {
       icon: <Server className="h-8 w-8" />,
-      title: 'Technical Infrastructure',
-      description: 'Robust and scalable infrastructure solutions',
+      title: "Infrastructure technique",
+      description: "Des solutions d'infrastructure robustes et évolutives",
       features: [
-        'Cloud architecture design',
-        'Database optimization',
-        'System integration',
-        'Performance monitoring'
+        "Optimisation de la base de données ",
+        "Intégration du système",
+        "Suivi des performances"
       ]
     },
     {
       icon: <Users className="h-8 w-8" />,
       title: 'Coaching & Mentorship',
-      description: 'Nurturing the next generation of tech talent',
+      description: "Nourrir la prochaine génération de talents technologiques",
       features: [
-        'One-on-one mentoring',
-        'Technical skill development',
-        'Career guidance',
-        'Project-based learning'
+        "Le coaching et le mentorat",
+        "development Développement des compétences techniques",
+        " Orientation professionnelle ",
+        "Apprentissage par projet "
       ]
     },
     {
       icon: <BookOpen className="h-8 w-8" />,
-      title: 'Knowledge Sharing',
-      description: 'Spreading technical expertise and best practices',
+      title: 'Partage de connaissances',
+      description: "Diffusion de l’expertise technique et des bonnes pratiques",
       features: [
-        'Technical workshops',
-        'Code review sessions',
-        'Best practices training',
-        'Technology stack guidance'
+        ' Ateliers techniques',
+        ' Séances de révision de code',
+        ' Formation aux bonnes pratiques',
+        ' Conseils sur la pile technologique'
       ]
     },
     {
       icon: <Laptop className="h-8 w-8" />,
-      title: 'Digital Transformation',
-      description: 'Helping organizations embrace digital innovation',
+      title: ' Transformation numérique',
+      description: "Aider les organisations à adopter l’innovation numérique",
       features: [
-        'Digital strategy consulting',
-        'Process automation',
-        'Legacy system modernization',
-        'Technology adoption planning'
+        'Conseil en stratégie digitale',
+        ' Automatisation des processus',
+        ' Modernisation du système existant',
+        ' Planification de l’adoption de technologies'
       ]
     },
     {
       icon: <Brain className="h-8 w-8" />,
-      title: 'Innovation Lab',
-      description: 'Exploring cutting-edge technologies and solutions',
+      title: " Laboratoire d'innovation ",
+      description: 'Explorer des technologies et des solutions de pointe',
       features: [
-        'Proof of concept development',
-        'Technology research',
-        'Innovation workshops',
-        'Emerging tech adoption'
+        'Recherche technologique',
+        "Ateliers d'innovation",
+        "Adoption des technologies émergentes "
       ]
     }
   ];
@@ -100,8 +98,8 @@ export function Services() {
   return (
     <div className="pt-16">
       <PageHeader
-        title="Our Services"
-        subtitle="Comprehensive Technology Solutions for Your Success"
+        title="Nos Services"
+        subtitle="Des solutions technologiques complètes pour votre réussite"
       />
 
       {/* Services Grid */}
@@ -119,25 +117,33 @@ export function Services() {
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6">Why Choose BUZABYTE?</h2>
+            <h2 className="text-3xl font-bold mb-6"> Pourquoi choisir BUZABYTE ?</h2>
             <p className="text-gray-600 mb-12">
-              We combine technical expertise with a deep understanding of the local context
-              to deliver solutions that make a real impact in DR Congo's digital landscape.
+            Nous combinons une expertise technique avec une compréhension approfondie
+             du contexte local pour proposer des solutions qui ont un réel
+              impact sur le paysage numérique de la RD Congo.
+            </p>
+            <p className="text-gray-600 mb-12">
+            BUZABYTE s’adresse aux jeunes de toutes les couches de la population, 
+            avec pour objectif d'améliorer la productivité et la performance, quel que soit 
+            le métier exercé. Nous portons une attention particulière aux entrepreneurs, 
+            aux étudiants et aux élèves désireux d'améliorer leurs activités quotidiennes.
+
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Local Expertise',
-                description: "Deep understanding of DR Congo's tech ecosystem and business environment"
+                title: ' Expertise locale',
+                description: "Compréhension approfondie de l'écosystème technologique et de l'environnement des affaires de la RD Congo"
               },
               {
-                title: 'Quality Focus',
-                description: 'Commitment to delivering high-quality, scalable solutions'
+                title: ' Accent sur la qualité',
+                description:"Engagement à fournir des solutions évolutives de haute qualité"
               },
               {
-                title: 'Community Impact',
-                description: "Contributing to DR Congo's digital transformation and tech community growth"
+                title: 'Impact sur la communauté',
+                description: "Contribuer à la transformation numérique et à la croissance de la communauté technologique de la RD Congo"
               }
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md">

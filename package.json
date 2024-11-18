@@ -2,7 +2,7 @@
   "name": "buzabyte-website",
   "private": true,
   "homepage": "https://aganzemc.github.io/BUZABYTE",
-  "version": "0.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

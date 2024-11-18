@@ -32,53 +32,53 @@ function PartnerCard({ name, description, logo, type }: PartnerCardProps) {
 export function Partners() {
   const partners = [
     {
-      name: 'Xaveri GIVE HOPE',
-      description: 'Collaborating on youth empowerment and digital literacy initiatives across Rwanda.',
+      name: 'Le mouvement xaveri ',
+      description: 'Collaborer aux initiatives d’autonomisation des jeunes et d’alphabétisation numérique à travers le Congo..',
       logo: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      type: 'Community Partner'
+      type: ' Partenaire communautaire '
     },
     {
-      name: 'Rwanda ICT Chamber',
-      description: 'Working together to strengthen the technology ecosystem in Rwanda.',
+      name: 'GIVE HOPE',
+      description: 'Travailler ensemble pour renforcer l’écosystème technologique au Congo..',
       logo: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      type: 'Industry Partner'
+      type: ' Partenaire communautaire '
     },
-    {
-      name: 'Kigali Innovation Hub',
-      description: 'Collaborating on tech innovation and startup development programs.',
-      logo: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      type: 'Innovation Partner'
-    },
-    {
-      name: 'Digital Skills Academy',
-      description: 'Partnership focused on providing quality tech education and training.',
-      logo: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      type: 'Education Partner'
-    }
+    // {
+    //   name: 'Bukavu Innovation Hub',
+    //   description: "Collaborer sur des programmes d'innovation technologique et de développement de startups.",
+    //   logo: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    //   type: ' Partenaire Innovation '
+    // },
+    // {
+    //   name: ' Académie des compétences numériques',
+    //   description: 'Partenariat axé sur la fourniture d’un enseignement et d’une formation technologiques de qualité.',
+    //   logo: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    //   type: ' Partenaire éducatif '
+    // }
   ];
 
   const benefits = [
-    {
-      icon: <Globe className="h-8 w-8 text-blue-600" />,
-      title: 'Global Network',
-      description: 'Access to international tech communities and resources'
-    },
+    // {
+    //   icon: <Globe className="h-8 w-8 text-blue-600" />,
+    //   title: 'Global Network',
+    //   description: "Accès aux communautés et ressources technologiques internationales"
+    // },
     {
       icon: <Users className="h-8 w-8 text-blue-600" />,
-      title: 'Shared Expertise',
-      description: 'Combined knowledge and experience in technology and innovation'
+      title: ' Expertise partagée ',
+      description: 'Connaissance et expérience combinées en technologie et innovation'
     },
     {
       icon: <Handshake className="h-8 w-8 text-blue-600" />,
-      title: 'Collaborative Growth',
-      description: 'Joint initiatives for community development and impact'
+      title: 'Croissance collaborative ',
+      description: "Initiatives conjointes pour le développement et l’impact des communautés"
     }
   ];
 
   return (
     <div className="pt-16">
       <PageHeader
-        title="Our Partners"
+        title="Nos  Partenaires"
         subtitle="Building Success Through Strong Partnerships"
       />
 
@@ -96,7 +96,7 @@ export function Partners() {
       {/* Partnership Benefits */}
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Partnership Benefits</h2>
+          <h2 className="text-3xl font-bold text-center mb-12"> Avantages du partenariat</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="bg-white p-8 rounded-lg shadow-lg text-center">
@@ -113,16 +113,16 @@ export function Partners() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-blue-600 rounded-2xl text-white p-12 text-center">
-            <h2 className="text-3xl font-bold mb-4">Become a Partner</h2>
+            <h2 className="text-3xl font-bold mb-4">Devenir notre partenaire</h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Join us in our mission to transform Rwanda's digital landscape. Together, 
-              we can create more opportunities and drive innovation.
+            Rejoignez-nous dans notre mission de transformer le paysage numérique du Congo. Ensemble, 
+            nous pouvons créer davantage d’opportunités et stimuler l’innovation.
             </p>
             <Link
               to="/contact"
               className="inline-flex items-center px-8 py-3 border-2 border-white rounded-full text-lg font-medium hover:bg-white hover:text-blue-600 transition-colors duration-200"
             >
-              Partner With Us <ArrowRight className="ml-2 h-5 w-5" />
+              Devenez partenaire avec nous  <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
         </div>
