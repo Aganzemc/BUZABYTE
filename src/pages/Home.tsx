@@ -6,55 +6,55 @@ export function Home() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 text-white bg-gradient-to-r from-blue-600 to-blue-800">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Empowering Through Technology
+            <h1 className="mb-6 text-4xl font-bold md:text-6xl">
+            Autonomisation grâce à la technologie
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
-              Building digital solutions and nurturing tech talent in DRC
+            <p className="mb-8 text-xl text-blue-100 md:text-2xl">
+            Créer des solutions numériques et développer les talents technologiques en RDC
             </p>
             <Link
               to="/contact"
-              className="inline-flex items-center px-6 py-3 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-blue-600 transition-colors duration-200"
+              className="inline-flex items-center px-6 py-3 text-lg font-medium text-white transition-colors duration-200 border-2 border-white rounded-full hover:bg-white hover:text-blue-600"
             >
               Get Started
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-20 bg-white transform -skew-y-3 origin-bottom-right"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-20 origin-bottom-right transform -skew-y-3 bg-white"></div>
       </section>
 
       {/* Services Section */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <h2 className="mb-12 text-3xl font-bold text-center">Nos Services</h2>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {[
               {
-                icon: <Code className="h-8 w-8 text-blue-600" />,
-                title: 'Application Development',
-                description: 'Custom software solutions tailored to your needs',
+                icon: <Code className="w-8 h-8 text-blue-600" />,
+                title: ' Développement des applications ',
+                description: 'Des solutions logicielles personnalisées adaptées à vos besoins',
               },
               {
-                icon: <Users className="h-8 w-8 text-blue-600" />,
-                title: 'Coaching & Mentorship',
-                description: 'Guiding the next generation of tech professionals',
+                icon: <Users className="w-8 h-8 text-blue-600" />,
+                title: 'Coaching & mentorat',
+                description: 'Guider la prochaine génération de professionnels de la technologie',
               },
               {
-                icon: <BookOpen className="h-8 w-8 text-blue-600" />,
-                title: 'Knowledge Sharing',
-                description: 'Spreading technical expertise and best practices',
+                icon: <BookOpen className="w-8 h-8 text-blue-600" />,
+                title: ' Partage de connaissances',
+                description: 'Diffusion de l’expertise technique et des bonnes pratiques',
               },
             ].map((service, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200"
+                className="p-6 transition-shadow duration-200 bg-white rounded-lg shadow-lg hover:shadow-xl"
               >
                 <div className="mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+                <h3 className="mb-2 text-xl font-semibold">{service.title}</h3>
                 <p className="text-gray-600">{service.description}</p>
               </div>
             ))}
@@ -63,28 +63,28 @@ export function Home() {
       </section>
 
       {/* Featured Project Section */}
-      <section className="bg-gray-50 py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <section className="py-20 bg-gray-50">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="grid items-center grid-cols-1 gap-12 md:grid-cols-2">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Featured Project</h2>
-              <h3 className="text-xl text-blue-600 mb-4">Mobile App for Cultivators</h3>
-              <p className="text-gray-600 mb-6">
-                Empowering farmers with digital tools to enhance agricultural productivity
-                and manage their cultivation processes effectively.
+              <h2 className="mb-6 text-3xl font-bold">Projet en vedette </h2>
+              <h3 className="mb-4 text-xl text-blue-600">Mobile App pour les cultivateurs</h3>
+              <p className="mb-6 text-gray-600">
+              Donner aux agriculteurs des outils numériques pour améliorer la productivité agricole 
+              et gérer efficacement leurs processus de culture.
               </p>
               <Link
                 to="/projects"
                 className="inline-flex items-center text-blue-600 hover:text-blue-700"
               >
-                Learn More <ArrowRight className="ml-2 h-5 w-5" />
+                Learn More <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </div>
             <div className="relative h-[400px]">
               <img
                 src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
                 alt="Farming App"
-                className="rounded-lg shadow-xl object-cover w-full h-full"
+                className="object-cover w-full h-full rounded-lg shadow-xl"
               />
             </div>
           </div>
@@ -92,20 +92,20 @@ export function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-blue-600 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-          <p className="text-xl mb-8">
-            Join us in building the future of technology in Rwanda
+      <section className="py-16 text-white bg-blue-600">
+        <div className="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
+          <h2 className="mb-4 text-3xl font-bold">Prêt à commencer ?</h2>
+          <p className="mb-8 text-xl">
+          Rejoignez-nous pour construire l'avenir de la technologie en RDCongo
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center px-8 py-3 border-2 border-white text-lg font-medium rounded-full text-white hover:bg-white hover:text-blue-600 transition-colors duration-200"
+            className="inline-flex items-center px-8 py-3 text-lg font-medium text-white transition-colors duration-200 border-2 border-white rounded-full hover:bg-white hover:text-blue-600"
           >
-            Contact Us <Rocket className="ml-2 h-5 w-5" />
+            Contactez-nous <Rocket className="w-5 h-5 ml-2" />
           </Link>
         </div>
       </section>
     </div>
   );
-}
+}   
