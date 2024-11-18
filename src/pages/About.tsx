@@ -62,7 +62,7 @@ export function About() {
       bio: "Passionné par la création de solutions innovantes et l'encadrement de jeunes développeurs.",
     },
 
-    {
+    {   
       name: 'BULANGALIRE KASHABALI Clovis',
       role: 'Fondateur & Chargé de la securité juridique',
       image: clovisImage,
