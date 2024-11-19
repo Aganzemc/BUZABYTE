@@ -30,7 +30,7 @@ export function About() {
 
   const team = [
     {
-      name: 'BAPOLISI AYELE Paulin',
+      name: 'BAPOLISI AYALE Paulin',
       role: 'Fondateur & PDG',
       image: paulinImage,
       bio: "Passionné de la technologie avec plus d'expérience dans le développement de logiciels.",
