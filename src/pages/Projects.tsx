@@ -72,7 +72,7 @@ export function Projects() {
       link: '#'
     },
     {
-      title: 'System Système de gestion des soins de santé',
+      title: 'Système de gestion des soins de santé',
       description: "Une solution numérique rationalisant les dossiers des patients, les rendez-vous et la gestion des stocks médicaux pour les cliniques locales.",
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       date: 'décembre 2023',

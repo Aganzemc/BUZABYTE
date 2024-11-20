@@ -19,7 +19,7 @@ export function Home() {
               to="/contact"
               className="inline-flex items-center px-6 py-3 text-lg font-medium text-white transition-colors duration-200 border-2 border-white rounded-full hover:bg-white hover:text-blue-600"
             >
-              Get Started
+              commencer
               <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
           </div>

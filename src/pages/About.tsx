@@ -8,6 +8,7 @@ import chirstianImage from '../images/Teams/chris.jpg';
 import clovisImage from '../images/Teams/clovis.jpg';
 import danielImage from '../images/Teams/daniel.jpg';
 import userImage from '../images/Teams/user.png';
+import dollImage from '../images/Teams/doll.jpg'
 
 export function About() {
   const values = [
@@ -58,7 +59,7 @@ export function About() {
     {
       name: 'KAMANGALA ISANDA Julien',
       role: 'Fondateur & Formateur',
-      image: userImage,
+      image: dollImage,
       bio: "Passionné par la création de solutions innovantes et l'encadrement de jeunes développeurs.",
     },
 

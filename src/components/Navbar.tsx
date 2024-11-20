@@ -18,10 +18,10 @@ export function Navbar() {
 
   const links = [
     { href: '/', label: 'Home' },
-    { href: '/about', label: 'About' },
+    { href: '/about', label: 'À propos' },
     { href: '/services', label: 'Services' },
-    { href: '/projects', label: 'Projects' },
-    { href: '/partners', label: 'Partners' },
+    { href: '/projects', label: 'Projets' },
+    { href: '/partners', label: 'Partenaires' },
     { href: '/contact', label: 'Contact' },
   ];
 

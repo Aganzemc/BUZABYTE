@@ -79,7 +79,7 @@ export function Partners() {
     <div className="pt-16">
       <PageHeader
         title="Nos  Partenaires"
-        subtitle="Building Success Through Strong Partnerships"
+        subtitle="Construire le succès grâce à des partenariats solides"
       />
 
       {/* Partners Grid */}
