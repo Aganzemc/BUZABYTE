@@ -1,1 +1,2 @@
 *.fichier_grand_extension filter=lfs diff=lfs merge=lfs -text
+updat[[:space:]]site filter=lfs diff=lfs merge=lfs -text

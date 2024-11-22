@@ -2,6 +2,7 @@ import React from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { Handshake, Globe, Users, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import xaveriImage from '../images/Partenaires/xaveri.jpg'
 
 interface PartnerCardProps {
   name: string;
@@ -34,7 +35,7 @@ export function Partners() {
     {
       name: 'Le mouvement xaveri ',
       description: 'Collaborer aux initiatives d’autonomisation des jeunes et d’alphabétisation numérique à travers le Congo..',
-      logo: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      logo: xaveriImage,
       type: ' Partenaire communautaire '
     },
     {
